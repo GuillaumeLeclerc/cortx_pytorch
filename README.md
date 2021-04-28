@@ -42,7 +42,7 @@ if __name__ == '__main__':
 ## 2: Use the dataset like any pytorch dataset
 
 ```python
-fimport torch as ch
+import torch as ch
 from tqdm import tqdm
 
 from cortx_pytorch import RemoteDataset, make_client
